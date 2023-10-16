@@ -1,0 +1,17 @@
+img{
+    border-radius: 50%;
+    animation: App-logo-spin infinite 20s linear;
+}
+*{
+    text-align: center;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
