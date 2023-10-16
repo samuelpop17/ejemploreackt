@@ -1,13 +1,13 @@
 import ryan from '../../assets/imagenes/img2.png'
 import './SumarNmeros.css'
-function SumarNumeros () { 
+function SumarNumeros (props) { 
     var resultado=0
     const sumando =(numero)=>{
 
-     
+        var num1=parseInt(props.numero1);
         console.log("ahora mismo tenemos: "+resultado)
          
-         var suma=resultado +numero
+         var suma=resultado +num1
             resultado=suma
          console.log("lo hemos sumado u ahoratenemso: "+resultado)
 

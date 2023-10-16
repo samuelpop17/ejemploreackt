@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
-import SumarNumeros from './components/SumarNumeros/SumarNumeros'
+import SaludoPadre from './components/SaludoPadre';
+import Matematicas from './components/Matematicas';
+import Contador from './components/Contador';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SumarNumeros></SumarNumeros>
-
+    <Matematicas numero="7"></Matematicas>
+    <hr></hr>
+<Contador></Contador>
   </React.StrictMode>
 );
 
