@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import SaludoPadre from './components/SaludoPadre';
 import Matematicas from './components/Matematicas';
 import Contador from './components/Contador';
+import Car from './components/Car';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Matematicas numero="7"></Matematicas>
-    <hr></hr>
-<Contador></Contador>
+    
+   <Car marca="audi" modelo="Q7" aceleracion="30" velocidadMaxima="230"></Car>
+   <Car marca="lambo" modelo="performante" aceleracion="60" velocidadMaxima="330"></Car>
+
   </React.StrictMode>
 );
 
